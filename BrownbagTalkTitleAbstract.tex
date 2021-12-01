@@ -1,0 +1,96 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{article}
+\usepackage{amsmath,amssymb}
+\usepackage{lmodern}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\hypersetup{
+  pdftitle={A Practical Guide to Markdown and Tools},
+  pdfauthor={Fei Ye},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+\urlstyle{same} % disable monospaced font for URLs
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+
+\title{A Practical Guide to Markdown and Tools}
+\author{Fei Ye}
+\date{Wednesday, December 1, 2021}
+
+\begin{document}
+\maketitle
+
+\hypertarget{a-practical-guide-to-markdown-and-tools}{%
+\section{A Practical Guide to Markdown and
+Tools}\label{a-practical-guide-to-markdown-and-tools}}
+
+\href{https://www.markdownguide.org/getting-started/}{Markdown} is a
+lightweight markup language that can be used to add formatting elements
+to plaintext text documents It is the popular markup language that
+people use it to create websites, documents, books, and presentations.
+For example, \href{https://yfei.page}{my website}, and those
+\href{https://yfei.page/teaching/\#books}{online books and slides} were
+built using markdown or its extension R markdown.
+
+In this presentation, I will introduce the syntax of Markdown, the easy
+to use editor \href{https://typora.io/}{Typora}, the universal document
+converter \href{http://pandoc.org/}{Pandoc}, the static site generator
+\href{https://gohugo.io/getting-started/quick-start/}{Hugo}, and the
+cloud computing and website hosting platform
+\href{https://app.netlify.com/drop}{Netlify}. If time permits, I will
+also introduce the version control system
+\href{https://git-scm.com/}{git}, the repository hosting platform
+\href{https://github.com/}{GitHub}, the app
+\href{https://desktop.github.com/}{GitHub Desktop}, and
+\href{https://rmarkdown.rstudio.com/}{R Markdown}.
+
+By the end of this talk, participants will be able to
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  write in Markdown,
+\item
+  use Typora and Pandoc to create a webpage, a word document, a pdf
+  file, and a presentation (html or ppt) from a Markdown file, and
+\item
+  use Hugo to create a website (or blogsite) and publish it.
+\end{enumerate}
+
+\end{document}
