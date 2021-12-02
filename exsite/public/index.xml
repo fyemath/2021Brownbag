@@ -1,8 +1,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Home on Hugo Prose</title>
+    <title>Home on Hugo Prose Demo</title>
     <link>/</link>
-    <description>Recent content in Home on Hugo Prose</description>
+    <description>Recent content in Home on Hugo Prose Demo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 11 Nov 2021 16:15:41 -0500</lastBuildDate>
@@ -412,6 +412,10 @@ citations.&amp;#160;&lt;a href=&#34;#fnref:4&#34; class=&#34;footnote-backref&#3
 &lt;li&gt;Article 5&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;preprints&#34;&gt;Preprints&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Author, Title, Date&lt;/li&gt;
+&lt;li&gt;Author, Title, Date&lt;/li&gt;
+&lt;/ol&gt;
 &lt;h2 id=&#34;presentations&#34;&gt;Presentations&lt;/h2&gt;
 
         </description>

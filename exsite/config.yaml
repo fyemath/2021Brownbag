@@ -2,7 +2,7 @@ baseurl: "/"
 languageCode: "en-us"
 defaultContentLanguage: "en"
 # defaultContentLanguage: "zh"
-title: "Hugo Prose"
+title: "Hugo Prose Demo"
 theme: "hugo-prose"
 googleAnalytics: ""
 disqusShortname: ""
@@ -22,8 +22,8 @@ menu:
     - name: Search
       url: "#"
       identifier: menu-search
-    - name: Subscribe
-      url: "index.xml"
+    # - name: Subscribe
+    #   url: "index.xml"
   footer:
     - name: Contact
       url: "/404.html"
