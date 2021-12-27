@@ -1,0 +1,1 @@
+This is an example site build using Hugo with the theme Hugo Prose.
